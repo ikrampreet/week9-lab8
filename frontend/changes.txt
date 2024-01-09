@@ -1,0 +1,13 @@
+changes done:
+
+1. Added React Router Routes and changed the link from header into React Router Link component
+2. Changes the routes in data file
+3. added layout component and wrapped all the routes inside that 
+( in layout component navbar and footer is moved so it can be visible in all routes)
+4. Added Registration form component and routes in navigation
+5. added registerUser function and allUsers variable in data file to collect user information from registration form
+6. Added FAQ components and shown them using nested routing and outlet.
+7. Made all the style changes in the app.css file only
+8. Got the data for services and tours from data file using states
+9. Added Explore more component page and routing for showing individual tour details from data.
+10. Added a function to filter the tours by their id and imported that in the ExploreMore component for showing tour details. 
